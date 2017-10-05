@@ -72,3 +72,12 @@ public class ExampleClass : MonoBehaviour {
 }
 ```
 **Reference:** https://docs.unity3d.com/2017.2/Documentation/ScriptReference/CharacterController.Move.html
+
+## VBA Application.OnTime
+Schedules a procedure to be run at a specified time in the future (either at a specific time of day or after a specific amount of time has passed).
+
+```vb
+' Example
+Application.OnTime Now + TimeValue("00:00:15"), "my_Procedure"
+```
+Reference: https://msdn.microsoft.com/en-us/library/aa195809(office.11).aspx
