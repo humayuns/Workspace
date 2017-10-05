@@ -4,6 +4,9 @@
 
 ![Emmet demo](https://code.visualstudio.com/images/emmet_emmet.gif)
 
+* [Emmet in Visual Studio Code](https://code.visualstudio.com/docs/editor/emmet)
+* Emmet Cheat Sheet: https://docs.emmet.io/cheat-sheet/
+
 `nav>ul>li`
 ```html
 <nav>
