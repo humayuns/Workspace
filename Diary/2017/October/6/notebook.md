@@ -2,6 +2,8 @@
 
 ## Emmet Examples
 
+![Emmet demo](https://code.visualstudio.com/images/emmet_emmet.gif)
+
 `nav>ul>li`
 ```html
 <nav>
