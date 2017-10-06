@@ -126,9 +126,13 @@ Reference: https://stackoverflow.com/questions/1562913/timer-on-user-form-in-exc
 ## How to: Convert Strings into an Array of Bytes in Visual Basic
 
 ```vb
-Private Function UnicodeStringToBytes( 
-    ByVal str As String) As Byte()
-
+' Unicode Example
+Function UnicodeStringToBytes(ByVal str As String) As Byte()
     Return System.Text.Encoding.Unicode.GetBytes(str)
+End Function
+
+' ASCII Example
+Function AsciiStringToBytes(ByVal str As String) As Byte()
+        Return System.Text.Encoding.ASCII.GetBytes(str)
 End Function
 ```
