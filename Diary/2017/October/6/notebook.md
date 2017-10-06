@@ -122,3 +122,13 @@ Public Sub OnTimer()
 End Sub
 ```
 Reference: https://stackoverflow.com/questions/1562913/timer-on-user-form-in-excel-vba
+
+## How to: Convert Strings into an Array of Bytes in Visual Basic
+
+```vb
+Private Function UnicodeStringToBytes( 
+    ByVal str As String) As Byte()
+
+    Return System.Text.Encoding.Unicode.GetBytes(str)
+End Function
+```
