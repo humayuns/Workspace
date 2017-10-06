@@ -196,3 +196,14 @@ Public Function InterpolateXY(ByRef X As Range, ByRef Y As Range, ByRef XRange A
     
 End Function
 ```
+
+## Smalltalk Creating a Morph
+
+```smalltalk
+"Create morph"
+RectangleMorph new
+
+"Create and show using openInWorld"
+RectangleMorph new openInWorld
+```
+Reference: http://wiki.squeak.org/squeak/2197
