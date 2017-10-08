@@ -21,5 +21,15 @@ While N ≤ NMAX # limit iterations to prevent infinite loop
 EndWhile
 Output("Method failed.") # max number of steps exceeded
 ```
+
+## Writing Mathematic Fomulars in Markdown
+```
+\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
+
+\to
+```
+
+
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
+* http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
