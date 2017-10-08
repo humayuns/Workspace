@@ -67,6 +67,8 @@ Installer gemsource
 
 ## Pharo: Tetris
 A simple Tetris implementation. [Link](http://catalog.pharo.org/catalog/project/Tetris?_s=yoLwV9g2FUGYCA5C&_k=yr8IdgxXHNGn6k7R)
+
+![Tetris](tetris.png)
 ```smalltalk
 "Install package"
 Metacello new
