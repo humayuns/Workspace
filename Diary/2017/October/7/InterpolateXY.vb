@@ -1,20 +1,3 @@
-# 7-10-2017
-
-## C# Change printer page size
-```csharp
-PrintDocument pd = new PrintDocument();
-pd.DefaultPageSettings.PaperSize = new PaperSize("Custom", 840, 1000);
-```
-
-## Links
-* [Bilinear Interpolation in Excel](http://www.engineerexcel.com/bilinear-interpolation-excel/)
-* https://en.wikipedia.org/wiki/Bilinear_interpolation
-* :tv: [Bisection Example/Excel](https://www.youtube.com/watch?v=q6WdsIJVl9M)
-
-
-## Excel VBA Bilinear interpolation
-
-```vb
 Public Function InterpolateXY(ByRef X As Range, ByRef Y As Range, ByRef XRange As Range, ByRef YRange As Range, ByRef ValueTable As Range) As Double
     Dim iCol As Long
     Dim iRow As Long
@@ -38,7 +21,7 @@ Public Function InterpolateXY(ByRef X As Range, ByRef Y As Range, ByRef XRange A
     Do While Y >= YRange(iRow, 1).Value And (iRow < YRange.Rows.Count)
         iRow = iRow + 1
     Loop
-
+    
     'if X or Y fall outside the table, the function result is an error value
     If (X < XRange(1, 1).Value) Or (X > XRange(1, iCol).Value) Or (Y < YRange(1, 1).Value) Or (Y > YRange(iRow, 1).Value) Then
         InterpolateXY = (1 / 0)
@@ -63,4 +46,3 @@ Public Function InterpolateXY(ByRef X As Range, ByRef Y As Range, ByRef XRange A
     InterpolateXY = C5 + F2 * (C6 - C5)
     
 End Function
-```
