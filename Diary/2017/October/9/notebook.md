@@ -65,6 +65,20 @@ Installer gemsource
   load.
 ```
 
+## Pharo: Tetris
+A simple Tetris implementation. [Link](http://catalog.pharo.org/catalog/project/Tetris?_s=yoLwV9g2FUGYCA5C&_k=yr8IdgxXHNGn6k7R)
+```smalltalk
+"Install package"
+Metacello new
+	smalltalkhubUser: 'Pharo' project: 'MetaRepoForPharo40';
+	configuration: 'Tetris';
+	version: #stable;
+	load.
+
+"run new game"	
+Tetris new openInWorld.
+```
+
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
