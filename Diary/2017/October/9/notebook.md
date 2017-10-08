@@ -84,7 +84,7 @@ Tetris new openInWorld.
 ## Writing a Macro in LibreOffice Calc
 Reference: http://www.debugpoint.com/2014/09/writing-a-macro-in-libreoffice-calc-getting-started/
 
-```basic
+```vb
 REM  *****  BASIC  *****
 sub hello_world
 
