@@ -70,3 +70,5 @@ Installer gemsource
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
 * http://www.dm.uba.ar/MathMorphs/
 * https://github.com/dalehenrich/metacello-work
+* http://www.opencobalt.net/
+* :bolt: https://github.com/SquareBracketAssociates/SqueakByExample-english
