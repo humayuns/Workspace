@@ -6,3 +6,7 @@ Searches the page naming container for a server control with the specified ident
 ```vb
 Dim TextBox1 = CType(Me.FindControl("TextBox1", TextBox))
 ```
+
+
+## Links
+* :tv: [Bisection Example/Excel](https://www.youtube.com/watch?v=q6WdsIJVl9M)
