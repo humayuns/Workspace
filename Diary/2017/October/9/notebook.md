@@ -81,6 +81,34 @@ Metacello new
 Tetris new openInWorld.
 ```
 
+## Writing a Macro in LibreOffice Calc
+Reference: http://www.debugpoint.com/2014/09/writing-a-macro-in-libreoffice-calc-getting-started/
+
+```basic
+REM  *****  BASIC  *****
+sub hello_world
+
+	dim document   as object
+	dim dispatcher as object
+	
+	document   = ThisComponent.CurrentController.Frame
+	dispatcher = createUnoService("com.sun.star.frame.DispatchHelper")
+	
+	dim args1(0) as new com.sun.star.beans.PropertyValue
+	dim args2(0) as new com.sun.star.beans.PropertyValue
+	
+	args1(0).Name = "ToPoint"
+	args1(0).Value = "$A$1"
+	dispatcher.executeDispatch(document, ".uno:GoToCell", "", 0, args1())
+	
+	args2(0).Name = "StringName"
+	args2(0).Value = "Hello World!"
+	dispatcher.executeDispatch(document, ".uno:EnterString", "", 0, args2())
+
+   msgbox "Completed!"
+end sub
+```
+
 
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
@@ -90,3 +118,4 @@ Tetris new openInWorld.
 * http://www.opencobalt.net/
 * :star: https://github.com/SquareBracketAssociates/SqueakByExample-english
 * Speech to Text: https://www.ibm.com/watson/services/speech-to-text/
+* http://www.debugpoint.com/libreoffice-basic-macro-tutorial-index/
