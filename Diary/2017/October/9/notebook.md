@@ -34,7 +34,39 @@ Output("Method failed.") # max number of steps exceeded
 
 ![MathMorphs](http://www.dm.uba.ar/MathMorphs/morphic.gif)
 
+## Squeak: Install Metacello
+
+```smalltalk
+"Get the Metacello configuration (for Squeak users)"
+Installer gemsource
+    project: 'metacello';
+    addPackage: 'ConfigurationOfMetacello';
+    install.
+
+"Bootstrap Metacello Preview, using mcz files (#'previewBootstrap' symbolic version"
+((Smalltalk at: #ConfigurationOfMetacello) project 
+  version: #'previewBootstrap') load.
+
+"Load the Preview version of Metacello from GitHub"
+(Smalltalk at: #Metacello) new
+  configuration: 'MetacelloPreview';
+  version: #stable;
+  repository: 'github://dalehenrich/metacello-work:configuration';
+  load.
+
+"Now load latest version of Metacello"
+(Smalltalk at: #Metacello) new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  get.
+(Smalltalk at: #Metacello) new
+  baseline: 'Metacello';
+  repository: 'github://dalehenrich/metacello-work:master/repository';
+  load.
+```
+
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
 * http://www.dm.uba.ar/MathMorphs/
+* https://github.com/dalehenrich/metacello-work
