@@ -88,5 +88,5 @@ Tetris new openInWorld.
 * http://www.dm.uba.ar/MathMorphs/
 * https://github.com/dalehenrich/metacello-work
 * http://www.opencobalt.net/
-* :bolt: https://github.com/SquareBracketAssociates/SqueakByExample-english
+* :star: https://github.com/SquareBracketAssociates/SqueakByExample-english
 * Speech to Text: https://www.ibm.com/watson/services/speech-to-text/
