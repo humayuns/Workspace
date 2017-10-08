@@ -81,6 +81,7 @@ Metacello new
 Tetris new openInWorld.
 ```
 
+
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
@@ -88,3 +89,4 @@ Tetris new openInWorld.
 * https://github.com/dalehenrich/metacello-work
 * http://www.opencobalt.net/
 * :bolt: https://github.com/SquareBracketAssociates/SqueakByExample-english
+* Speech to Text: https://www.ibm.com/watson/services/speech-to-text/
