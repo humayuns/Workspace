@@ -23,13 +23,18 @@ Output("Method failed.") # max number of steps exceeded
 ```
 
 ## Writing Mathematic Fomulars in Markdown
+
 ```
 \int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x
 
 \to
 ```
 
+## MathMorphs
+
+![MathMorphs](http://www.dm.uba.ar/MathMorphs/morphic.gif)
 
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/
+* http://www.dm.uba.ar/MathMorphs/
