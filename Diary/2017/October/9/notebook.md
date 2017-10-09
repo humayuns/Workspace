@@ -112,7 +112,7 @@ end sub
 ## Smalltalk Execute a block
 ```smalltalk
 b := [Transcript show:'test'.].
-b value
+b value.
 ```
 
 ## Links
