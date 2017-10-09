@@ -109,6 +109,11 @@ sub hello_world
 end sub
 ```
 
+## Smalltalk Execute a block
+```smalltalk
+b := [Transcript show:'test'.].
+b value
+```
 
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
