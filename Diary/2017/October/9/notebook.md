@@ -116,6 +116,7 @@ b value.
 ```
 
 ## C# Set Image Rating
+https://stackoverflow.com/questions/25380108/how-to-set-an-image-rating
 ```csharp
 class Program
 {
