@@ -12,3 +12,19 @@ Dim ColNum As Integer
 ColNum = Target.Column
 ```
 Reference: https://msdn.microsoft.com/en-us/vba/excel-vba/articles/range-row-property-excel
+
+## Smalltalk Custom Plot method
+```smalltalk
+DrawFunction: aBlockClosure  a: a b: b pen: pen 
+	
+	|y m X Y|
+	a to: b by:0.1 do:  [:xx |
+			x := xx.
+			y := aBlockClosure value.
+			m := xx asString, ' - ', y.
+			X := 250 + xx.
+			Y := 200 - y.
+			pen place: X@Y.
+			pen go: 0@0.
+		].
+```
