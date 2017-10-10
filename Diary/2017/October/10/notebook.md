@@ -28,3 +28,10 @@ DrawFunction: aBlockClosure  a: a b: b pen: pen
 			pen go: 0@0.
 		].
 ```
+
+## Links
+* http://www.cuis-smalltalk.org/
+* https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev
+* https://github.com/Cuis-Smalltalk-Learning/Learning-Cuis/
+
+**[<< Previous (9-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/9/notebook.md)**
