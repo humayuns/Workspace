@@ -171,6 +171,4 @@ class Program
 * Speech to Text: https://www.ibm.com/watson/services/speech-to-text/
 * http://www.debugpoint.com/libreoffice-basic-macro-tutorial-index/
 
-**[<< Previous (8-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/8/notebook.md)
-[Next (10-10-2017) >>](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/10/notebook.md)
-**
+[<< Previous (8-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/8/notebook.md) -- [Next (10-10-2017) >>](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/10/notebook.md)
