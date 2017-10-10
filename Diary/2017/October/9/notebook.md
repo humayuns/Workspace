@@ -160,7 +160,6 @@ class Program
 }
 ```
 
-
 ## Links
 * https://en.wikipedia.org/wiki/Bisection_method
 * http://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/

@@ -28,6 +28,26 @@ DrawFunction: aBlockClosure  a: a b: b pen: pen
 			pen go: 0@0.
 		].
 ```
+Example usage:
+```smalltalk
+w := WindowMaker new.
+w Create.
+
+w NewImage.
+p := w pen.
+p color: Color black.
+
+mf := MathFunctions new.
+func := [((mf x * 3.14/180) sin) * 50].
+mf DrawFunction: func
+	a: -200
+	b: 200
+	pen: p.
+w window changed.
+```
+Result:
+
+![Plot](plot.png)
 
 ## Links
 * http://www.cuis-smalltalk.org/
