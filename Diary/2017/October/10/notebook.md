@@ -49,6 +49,23 @@ Result:
 
 ![Plot](plot.png)
 
+## VBA Read Data from Text File
+```vb
+Open "File.txt" For Input As #1
+Dim textline As String
+Dim text As String
+Do Until EOF(1)
+    Line Input #1, textline
+    text = text & textline
+Loop
+Close #1
+
+' Display file contents in the Immediate Window.
+Debug.Print text
+```
+
+
+
 ## Links
 * http://www.cuis-smalltalk.org/
 * https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev
