@@ -39,6 +39,38 @@ Set r = New RegExp
 r.Pattern = "^[a-zA-Z0-9]*S"
 ```
 
+## Normal Distribution VB
+https://social.msdn.microsoft.com/Forums/en-US/3c7a351e-8a65-4146-b54d-5019758dfe5e/normal-distribution-function?forum=vbgeneral
+
+![Normal Distribution](350px-Normal_Distribution_PDF.svg.png)
+```vb
+Public Function NormDist(ByVal x As Double) As Double
+
+      Dim t As Double
+      Const b1 = 0.31938153
+      Const b2 = -0.356563782
+      Const b3 = 1.781477937
+      Const b4 = -1.821255978
+      Const b5 = 1.330274429
+      Const p = 0.2316419
+      Const c = 0.39894228
+
+      If x >=0 Then
+          t = 1.0# / (1.0# + p * x)
+          NormDist = (1.0# - c * Math.Exp(-x * x / 2.0#) * t * (t * (t * (t *  (t * b5 +b4) + b3) + b2) + b1))
+      Else 
+          t = 1.0# / (1.0# - p * x)
+         NormDist = (c * Math.Exp(-x * x / 2.0#) * t * (t * (t * (t *  (t * b5 +b4) + b3) + b2) + b1))
+       End If
+End Function
+```
+
+## Excel/VBA NORMINV function
+https://support.office.com/en-us/article/NORMINV-function-87981ab8-2de0-4cb0-b1aa-e21d4cb879b8
+```excel
+=NORMINV(A2,A3,A4)
+```
+
 
 ## Links
 * https://regex101.com/
