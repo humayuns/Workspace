@@ -64,12 +64,13 @@ Close #1
 Debug.Print text
 ```
 
-
-
 ## Links
 * http://www.cuis-smalltalk.org/
 * https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev
 * https://github.com/Cuis-Smalltalk-Learning/Learning-Cuis/
+
+## Links for Excel
+* http://www.excel-easy.com/
 
 [<< Previous (9-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/9/notebook.md) - 
 [Next (11-10-2017) >>](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/11/notebook.md)
