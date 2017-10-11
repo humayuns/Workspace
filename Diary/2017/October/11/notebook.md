@@ -33,6 +33,16 @@ Set Param1 = Nothing
 Set Rs1 = Cmd1.Execute()
 ```
 
+## VBScript RegEx AlphaNumeric
+```vb
+Set r = New RegExp
+r.Pattern = "^[a-zA-Z0-9]*S"
+```
+
+
+## Links
+* https://regex101.com/
+
 
 [<< Previous (10-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/10/notebook.md) - 
 [Next (12-10-2017) >>](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/12/notebook.md)
