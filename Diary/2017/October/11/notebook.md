@@ -79,6 +79,10 @@ Sheet1.Range("A1").NumberFormat = "yyyy-mm-dd" ' Format as Date
 Sheet1.Range("A1").NumberFormat = "@" ' Format as Text
 ```
 
+## Excel/VBA Offset and End
+```vb
+Debug.Print Worksheets("Sheet1").Range("A1").End(xlDown).Offset(1, 0)
+```
 
 ## Links
 * https://regex101.com/
