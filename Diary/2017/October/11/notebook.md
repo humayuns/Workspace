@@ -73,6 +73,12 @@ Dim result As Double
 result = WorksheetFunction.Norm_Inv(Probability, Mean, StandardDeviation)
 ```
 
+## Excel/VBA Format Range
+```vb
+Sheet1.Range("A1").NumberFormat = "yyyy-mm-dd" ' Format as Date
+Sheet1.Range("A1").NumberFormat = "@" ' Format as Text
+```
+
 
 ## Links
 * https://regex101.com/
