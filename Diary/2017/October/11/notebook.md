@@ -67,8 +67,10 @@ End Function
 
 ## Excel/VBA NORMINV function
 https://support.office.com/en-us/article/NORMINV-function-87981ab8-2de0-4cb0-b1aa-e21d4cb879b8
-```excel
-=NORMINV(A2,A3,A4)
+```vb
+'=NORMINV(A2,A3,A4)
+Dim result As Double
+result = WorksheetFunction.Norm_Inv(Probability, Mean, StandardDeviation)
 ```
 
 
