@@ -38,6 +38,7 @@ Sub TestFV()
     MsgBox("Your savings will be worth " & Format(Fval, Fmt) & ".")
 End Sub
 ```
+Reference: https://msdn.microsoft.com/en-us/library/ae5xky1f%28v=vs.90%29.aspx?f=255&MSPPError=-2147217396
 
-[<< Previous (12-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/12/notebook.md) - 
-[Next (14-10-2017) >>](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/14/notebook.md)
+[◀ Previous (12-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/12/notebook.md) [▲](https://github.com/humayuns/Workspace/tree/master/Diary/2017/October)
+[Next (14-10-2017) ▶](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/14/notebook.md)
