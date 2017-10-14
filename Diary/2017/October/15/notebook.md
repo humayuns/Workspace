@@ -14,7 +14,7 @@ Action <object> log = (m) => Console.WriteLine(m);
 
 var i = 65;
 log(Convert.ToString(i, 2));
-Console.WriteLine(Convert.ToString(i, 2));
+log(Convert.ToString(i, 2));
 
 i = i >> 2;
 log(i);
