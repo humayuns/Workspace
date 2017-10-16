@@ -21,12 +21,9 @@ p go: 0@0.
 x := 120.
 100 to: x do: [:xx|
 	y := 300 - ((xx * (3.14/180)) sin * 100).
-
 	p place: xx@y.
 	p go: 0@0.
-
 	].
-
 
 p place: 100@100.
 p goto: 200@200.
@@ -38,7 +35,6 @@ p go: 0@0.
 
 p place: 200@200.
 p go: 0@0.
-
 
 w changed.
 ```
