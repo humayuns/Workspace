@@ -3,6 +3,8 @@
 ## Squeak: Dots and Lines
 ![dots and lines](dots-lines.png)
 ```smalltalk
+
+"Create new SystemWindow and get window and pen."
 wm := WindowMaker new.
 wm Create.
 w := wm window.
