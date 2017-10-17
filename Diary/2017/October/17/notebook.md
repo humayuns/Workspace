@@ -1,6 +1,6 @@
 # 17-10-2017
 
-## Squeak Dots and Lines
+## Squeak: Dots and Lines
 ![dots and lines](dots-lines.png)
 ```smalltalk
 wm := WindowMaker new.
