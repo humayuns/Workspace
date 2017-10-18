@@ -42,5 +42,9 @@ DrawFunctionPointsLine: aBlockClosure a: a b: b pen: pen
 	pen go: 0@0.
 ```
 
+## Links
+* http://xt1.org/scriptunit
+* https://github.com/valeriofarias/vbsunit
+
 [◀ Previous (17-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/17/notebook.md) [▲](https://github.com/humayuns/Workspace/tree/master/Diary/2017/October)
 [Next (19-10-2017) ▶](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/19/notebook.md)
