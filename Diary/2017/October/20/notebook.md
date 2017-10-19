@@ -1,5 +1,10 @@
 # 20-10-2017
 
+## Python: Convert base-2 binary number string to int
+```python
+>>> int('11111111', 2)
+255
+```
 
 
 
