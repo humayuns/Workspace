@@ -16,6 +16,14 @@ ownerMorph addMorph: yourTextMorph.
 ## Drawing Tool
 ![Drawing Tool](drawing-tool.gif)
 
+## IronPython:Launching Sub-Processes
+[Here is the reference](http://www.ironpython.info/index.php?title=Launching_Sub-Processes)
+```python
+from System.Diagnostics import Process
+
+Process.Start('something.exe', 'args')
+``` 
+
 ## Links
 * https://stackoverflow.com/questions/46833884/pharo-smalltalk-how-to-create-an-input-field-using-textmorph
 
