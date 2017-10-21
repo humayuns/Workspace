@@ -24,7 +24,20 @@ $.isNumeric( Infinity )
 $.isNumeric( undefined )
 ```
 
-
+## [Client Side Validation using ASP.NET Validator Controls from Javascript](http://techbrij.com/client-side-validation-using-asp-net-validator-controls-from-javascript)
+```javascript
+function performCheck() {
+    Page_ClientValidate("LoginUserValidationGroup");
+    if (Page_IsValid) {
+        alert('it is valid');
+        return true;
+    }
+    else {
+        alert('No valid');
+        return false;
+    }
+}
+```
 
 ## Links
 * http://techbrij.com/client-side-validation-using-asp-net-validator-controls-from-javascript
