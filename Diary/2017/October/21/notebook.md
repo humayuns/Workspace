@@ -37,6 +37,9 @@ function performCheck() {
         return false;
     }
 }
+
+// alternate
+window.ValidatorValidate(window.passwordRequiredFieldValidator);
 ```
 
 ## Links
