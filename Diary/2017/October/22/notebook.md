@@ -11,7 +11,7 @@ RectangleAtX1: x1 Y1: y1 X2: x2 Y2: y2
 	pen goto: x1@y1.
 ```
 Example:
-```
+```smalltalk
 pf := PenFunctions new.
 pf Pen:p.
 
