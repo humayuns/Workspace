@@ -10,6 +10,15 @@ RectangleAtX1: x1 Y1: y1 X2: x2 Y2: y2
 	pen goto: x1@y2.
 	pen goto: x1@y1.
 ```
+Example:
+```
+pf := PenFunctions new.
+pf Pen:p.
+
+pf RectangleAtX1: 100 Y1: 100 X2: 400 Y2: 300.
+w changed. "Window changed"
+```
+![draw rectangle](draw-rectangle.png)
 
 ## Smalltalk: Pen Dragon
 ```smalltalk
