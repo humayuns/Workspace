@@ -23,6 +23,11 @@ dragon: n  "Display restoreAfter: [Display fillWhite. Pen new dragon: 10]."
         ifTrue: [self dragon: n - 1; turn: 90; dragon: 1 - n]
         ifFalse: [self dragon: -1 - n; turn: -90; dragon: 1 + n]]
 ```
+Example:
+```smalltalk
+pen dragon: 8.
+```
+![Pen dragon](pen-dragon.png)
 
 [◀ Previous (21-10-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/21/notebook.md) [▲](https://github.com/humayuns/Workspace/tree/master/Diary/2017/October)
 [Next (23-10-2017) ▶](https://github.com/humayuns/Workspace/blob/master/Diary/2017/October/23/notebook.md)
