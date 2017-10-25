@@ -1,6 +1,7 @@
 # 26-10-2017
 
 ## Smalltalk: Draw axis
+![smalltalk draw axis](smalltalk-draw-axis.png)
 ```smalltalk
 DrawAxis: window pen: pen
 
