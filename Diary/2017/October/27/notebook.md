@@ -28,6 +28,7 @@ Output
 9
 10
 ```
+![Transcript](transcript.png)
 
 ## Links
 * https://stackoverflow.com/questions/3874279/the-role-manager-feature-has-not-been-enabled
