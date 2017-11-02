@@ -1,5 +1,13 @@
 # 2-11-2017
 
+## Check all checkboxes on page load with jQuery
+```javascript
+$(function(){
+    $('#thediv input:checkbox').attr('checked', 'checked');
+});
+```
+
+
 ## Links
 * https://docs.microsoft.com/en-us/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started
 * https://www.aspsnippets.com/Articles/GridView-with-CheckBox-Get-Selected-Rows-in-ASPNet.aspx
