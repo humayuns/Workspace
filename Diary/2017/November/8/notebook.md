@@ -33,5 +33,8 @@ public class TransparentLabel : RichTextBox
 }
 ```
 
+## Links
+* https://www.codeproject.com/Articles/819294/WPF-MVVM-step-by-step-Basics-to-Advance-Level
+
 [◀ Previous (7-11-2017)](https://github.com/humayuns/Workspace/blob/master/Diary/2017/November/7/notebook.md) [▲](https://github.com/humayuns/Workspace/tree/master/Diary/2017/November)
 [Next (9-11-2017) ▶](https://github.com/humayuns/Workspace/blob/master/Diary/2017/November/9/notebook.md)
