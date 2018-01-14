@@ -10,5 +10,5 @@
 * [3D Profile Flip Card](https://codepen.io/nickhempsey/pen/eAIDH?q=flip%20card&order=popularity&depth=everything&show_forks=false)
 
 
-[◀ Previous (14-1-2018)](https://github.com/humayuns/Workspace/blob/master/Diary/2018/January/14/notebook.md) [▲](https://github.com/humayuns/Workspace/tree/master/Diary/2017/November)
+[◀ Previous (14-1-2018)](https://github.com/humayuns/Workspace/blob/master/Diary/2018/January/14/notebook.md) [▲](https://github.com/humayuns/Workspace/tree/master/Diary/2018/January)
 [Next (16-1-2018) ▶](https://github.com/humayuns/Workspace/blob/master/Diary/2018/January/16/notebook.md)
